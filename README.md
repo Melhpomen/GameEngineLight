@@ -1,57 +1,57 @@
 # GameEngineLight
-Small template with some basics for a game engine
+Small template with some basics for a game engine <br/>
 The code is I think self-explanatory, though there is some comments for particular points
 
 _______________________________________________________
-INIT folder :
+###INIT folder :
 
-REQUIRE.js
+- **REQUIRE.js**<br/> 
 Call every script needed
 
-CANVAS.js
+- **CANVAS.js** <br/>
 Can be also used for pre-rendering images canvas.PreRender()
 
-LOADING.js and PRELOAD.js
+- **LOADING.js / PRELOAD.js**<br/>
 Load every image wanted, the game will start only after all images are loaded (create an img folder)
 
-INIT.js
+- **INIT.js**<br/>
 Instantiate the GAME Object, initialize it, contains the gameplay loop
 
-ANIMATE.js
+- **ANIMATE.js**<br/>
 Contains functions for moving objects, physics, AI, etc
 
-RENDER.js
+- **RENDER.js**<br/>
 Must only be used to call the functions that draw in the canvas
 
-FPS.js
+- **FPS.js**<br/>
 Number of frames that could be drawn in one second, also animate/render loop execution time (ms)
 
 _______________________________________________________
-CORE folder :
+###CORE folder :
 
-INPUT.js
+- **INPUT.js**<br/>
 Check for keyboard and mouse inputs
 
-MATH.js
+- **MATH.js**<br/>
 Math library with some basic useful functions
 
-SPRITE.js
+- **SPRITE.js**<br/>
 Convert a charaset in a animated sprite
 
-GAMEOBJECT.js
+- **GAMEOBJECT.js**<br/>
 Basic variables/functions shared by many objects (inheritance)
 
-CAMERA.js
+- **CAMERA.js**<br/>
 Simple camera that can move around, with zoom
 
 _______________________________________________________
-FX folder :
+###FX folder :
 
-COLOR.js
+- **COLOR.js**<br/>
 Color Object with useful functions
 
-DRAW.js
+- **DRAW.js**<br/>
 Simplification for drawing basic shapes
 
-FILTER.js
+- **FILTER.js**<br/>
 Apply a filter above everything (black & white effect for instance)
