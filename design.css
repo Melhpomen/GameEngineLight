@@ -1,0 +1,29 @@
+body
+{
+	background-color : black;
+	margin : 0;
+	padding : 0;
+}
+
+textarea
+{
+	display : none;
+}
+
+.canvas
+{
+	position : absolute;
+	padding : 0px;
+	margin : 0px;
+	border : 0px;
+}
+
+#screen
+{
+	position : absolute;
+	top : 50%;
+	left : 50%;
+	margin-top : -300px;
+	margin-left : -500px;
+	background-color : white;
+}
